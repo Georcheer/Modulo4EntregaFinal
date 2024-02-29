@@ -34,10 +34,10 @@ st.write('Definicion de las etiquetas por Numero')
 st.write("""
 | Education | Job_Title | Gender | Location | 
 | :------------ | :--------------- | :---------------| :---------------|
-| 1 = Highschool | 1 = Director | 0 = Female | 1 = Suburban 
-| 2 = Bachelor's Degree | 2 = Analyst | 1 = Male | 2 = Rural
-| 3 = PHD | 3 = Manager |  | 3 = Urban
-| 4 = Master | 4 = Engineer |  |  
+| 0 = Highschool | 0 = Director | 0 = Female | 0 = Suburban 
+| 1 = Bachelor's Degree | 1 = Analyst | 1 = Male | 1 = Rural
+| 2 = PHD | 2 = Manager |  | 2 = Urban
+| 3 = Master | 3 = Engineer |  |  
 
 """)
 
