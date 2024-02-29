@@ -29,6 +29,17 @@ LinearReg.fit(X_train, y_train)
 y_pred = LinearReg.predict(X_test)
         
         """)
+st.write('Definicion de las etiquetas por Numero')
+
+st.write("""
+| Education | Job_Title | Gender | Location | 
+| :------------ | :--------------- | :---------------| :---------------|
+| 1 = Highschool | 1 = Director | 0 = Female | 1 = Suburban 
+| 2 = Bachelor's Degree | 2 = Analyst | 1 = Male | 2 = Rural
+| 3 = PHD | 3 = Manager |  | 3 = Urban
+| 4 = Master | 4 = Engineer |  |  
+
+""")
 
 #Funcion
 def reporteprediccion():
