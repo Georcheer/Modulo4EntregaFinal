@@ -12,7 +12,7 @@ st.write('## Modelo de prediccion de Salarios')
 st.sidebar.header('Informacion Relevante')
 
 st.write('### Anexamos el documento encas o ser quiera revisar la base de datos utilizada')
-df = pd.read_csv('C:/Users/fresh/OneDrive/Escritorio/salary_prediction_data.csv')
+df = pd.read_csv('salary_prediction_data.csv')
 
 st.dataframe(df)
 
