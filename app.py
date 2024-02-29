@@ -4,7 +4,7 @@ import sklearn
 import pandas as pd
 import numpy as np
 
-model = pickle.load(open('C:/Users/fresh/OneDrive/Escritorio/Modulo 4 PY/GitHub/LinearReg', 'rb'))
+model = pickle.load(open('LinearReg', 'rb'))
 
 st.title('Modelo de Regresion Lineal')
 st.write('## Modelo de prediccion de Salarios')
